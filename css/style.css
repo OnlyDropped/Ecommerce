@@ -1,0 +1,129 @@
+.header {
+  background-color: #ffffff;
+  height: 100vh;
+}
+.container {
+  max-width: 1089px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  padding: 60px 0 109px 25px;
+}
+.header__top-link {
+  margin-right: 124px;
+  position: relative;
+}
+.header__top-link--ellipse {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.menu__list {
+  display: flex;
+}
+.menu__list-item {
+  margin-right: 44px;
+}
+.menu__list-item:last-child {
+  margin-right: 0;
+}
+.menu__list-item--third {
+  margin-right: 54px;
+}
+.menu__list-link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.menu__list-link:hover {
+  color: #5956e9;
+}
+.header__top-button {
+  margin-left: auto;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #5956e9;
+  text-decoration: none;
+  padding: 25px 34px 22px 34px;
+  background-color: #fab8c3;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+  z-index: 9999;
+}
+.header__top-button--circle {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 0;
+}
+.header__title {
+  max-width: 579px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 67px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin-bottom: 32px;
+  position: relative;
+}
+.header__title-img {
+  position: absolute;
+  top: 195px;
+  right: 629px;
+}
+.header__subtitle {
+  max-width: 522px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 58px;
+  position: relative;
+}
+.header__subtitle-img {
+  position: absolute;
+  top: 6px;
+  left: 605px;
+}
+.header__button {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 25px 34px 22px 34px;
+  background: #5956e9;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+}
+.header__button--img{
+  position: absolute;
+  bottom: 259px;
+  left: 50px;
+}
+.header__button--ellipse30{
+  position: absolute;
+  bottom: 69px;
+  left: 581px;
+}
